@@ -1,0 +1,123 @@
+.nav-header{
+    
+    // background-color: rgb(158, 255, 253);
+     background-color: white;
+    // background-color: #8bf4db;
+    height: 100px;
+    border: 1px solid dfdfdf;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header-bg{
+    // background-color: white;
+    //background-color: rgb(249, 194, 172);
+    background-color: #f3b184
+}
+
+.div-header{
+    
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
+   
+}
+
+.check{
+    cursor: pointer;
+}
+
+.div-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    width: 30px;
+    padding:  2px 20px;
+    cursor: pointer;
+}
+
+.schedule{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbarrectangle1{
+     margin-left : 300px  ;
+     display: flex ;
+     flex-direction: row;
+     font-size: 16px;
+     overflow: hidden;
+     gap : 36px ;
+     font-weight: bold;
+     //text-decoration: none;
+     color: black;
+  
+    
+    
+ }
+
+
+ .navbargroup4{
+    display: flex ;
+    margin-left: 50px ;
+    margin-right: 50px ;
+
+    
+}
+.navbarscheduleBooking1{
+    width: 200px;
+    height: 40px ;
+    cursor: pointer;
+    &:hover{
+        color: rgb(0, 0, 0);
+    }
+}
+.navbarpassesMemberships1{
+   width: 200px;
+   height: 40px ;
+   cursor: pointer;
+   &:hover{
+    color: rgb(0, 0, 0);
+   }
+
+}
+.navbarclassesType{
+    width: 150px ;
+    height: 40px ;
+    cursor: pointer;
+    &:hover{
+        color: rgb(0, 0, 0);
+    }
+}
+.navbarweAreHiring{
+    width: 150px ;
+    height: 40px ;
+    cursor: pointer;
+    &:hover{
+        color: rgb(0, 0, 0);
+    }
+}
+.navbarcontactUs{
+    width: 120px ;
+     font-size: 22px ;
+     margin-top: -5px ;
+
+  
+
+    color: rgb(54, 51, 51);
+    cursor: pointer;
+    &:hover{
+    color: rgb(0, 0, 0);
+    }
+}

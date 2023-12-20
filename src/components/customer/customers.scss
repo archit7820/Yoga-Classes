@@ -1,0 +1,125 @@
+
+// .customernamephoto{
+//     display: flex; 
+//     flex-direction:row !important  ;
+//     margin-top: 20px  ;
+    
+// }
+// .customerphoto{
+//     border-radius: 50px;
+//     display: flex;
+//     flex-direction: row;
+//     margin-left: 20px;
+// }
+
+
+
+
+
+
+.customertext2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+
+
+.customer2{
+    margin-bottom: 100px ;
+    margin-top: 100px;
+
+}
+
+.customerdemo2{
+    align-items: auto;
+    font-family: 'Poppins',sans-serif;
+    flex-direction: row;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;;
+    gap : 100px 
+}
+.custo2{
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgb(214, 208, 208); 
+    box-sizing: border-box;
+
+}
+
+.customername2{
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+     margin:  20px ;
+     margin-top: 25px ;
+     font-size: 30px ;
+     padding-left: 9px;
+  
+    
+}
+
+.customersays2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap:balance;
+    display: flex;
+    text-align: left ;
+    line-height: 32px;
+     margin-left: 30px ;
+    flex-direction: row;
+     margin-top: 10px;
+    //  letter-spacing: 0.5px;
+     margin-bottom: 30px ;
+     font-size: 15.5px;
+     }
+
+
+.member2{
+    padding-top: 50px;
+}
+
+.button1{
+    height: 40%;
+    width: 30%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+.green-button2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .golden-button2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: goldenrod; 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect */
+  .green-button2:hover {
+    background-color: #45a049; 
+  }
+
+  .golden-button2:hover{
+    background-color:darkgoldenrod;
+  } 

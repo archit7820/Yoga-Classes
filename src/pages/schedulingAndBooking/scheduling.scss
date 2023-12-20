@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    padding-left: 10%;
+  }
+  
+  .sections {
+    width: 200px;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+  }
+  
+  .section {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .image-grids {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .image-grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+ 
+  .image-grid img {
+    width: 150%;
+    height: auto;
+    //max-height: 100px; 
+  }
+  

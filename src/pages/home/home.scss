@@ -1,0 +1,221 @@
+.home{
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+// .whatsapp-button {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: #15eb80;
+//     color: #ffffff;
+//     border: none;
+//     border-radius: 50%;
+//     padding: 10px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     text-decoration: none;
+//     transition: background-color 0.3s;
+//   }
+  
+//   .whatsapp-button:hover {
+//     background-color: #128c7e;
+//   }
+.Classes1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #262626 ;
+    padding-top: 10%;
+}
+
+.classType1{
+    font-size: 60px;
+letter-spacing: 0.58px;
+line-height: 92.6px;
+}
+// .whatsapp-button {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+//     background-color: #25d366; /* WhatsApp green color */
+//     color: #fff; /* White color for the icon */
+//     border: none;
+//     border-radius: 50%;
+//     padding: 15px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     text-decoration: none;
+//     transition: background-color 0.3s;
+//   }
+  
+//   .whatsapp-icon {
+//     font-size: 4em; /* Adjust the size as needed */
+//   }
+
+
+//Main 
+// .whatsapp-button {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+//   }
+  
+//   .whatsapp-icon-container {
+//     background-color: #25d366; 
+//     color: #fff; 
+//     border-radius: 10px; 
+//     padding: 10px; 
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     display: flex;
+//     align-items: center;
+//     cursor: pointer;
+//     transition: background-color 0.3s;
+//   }
+  
+//   .whatsapp-icon {
+//     font-size: 1.8em; 
+//     margin-right: 10px; 
+//   }
+  
+//   .chat-text {
+//     display: none; 
+//     font-size: 1em; 
+//   }
+  
+//   .whatsapp-icon-container:hover {
+//     background-color: #128c7e; 
+//   }
+  
+//   .whatsapp-icon-container:hover .chat-text {
+//     display: inline; 
+//   }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .whatsapp-icon-container {
+    display: flex;
+    align-items: center;
+    background-color: #15eb80; 
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    z-index: 1;
+  }
+
+  .whatsapp-icon-container img{
+    max-width: 40px; 
+  max-height: 30px; 
+  margin-right: 10px;
+  
+  }
+  
+  .whatsapp-icon {
+    margin-right: 10px;
+  }
+  
+  .whatsapp-icon-container:hover {
+    background-color: #128c7e; /* Darker color on hover */
+  }
+  
+  .chat-text {
+    display: none;
+    margin-left: 10px;
+  }
+  
+  .whatsapp-icon-container:hover .chat-text {
+    display: inline-block;
+  }
+  
+
+
+.welcometext{
+    display: flex ;
+    flex-direction: column ;
+}
+.navbarhome{
+    width: 100px ;
+    cursor: pointer;
+    height: 40px ;
+    &:hover{
+    color: rgb(0, 0, 0);
+    }
+    text-decoration: none;
+
+}
+.welcome{
+
+
+}
+.welcomefull{
+    flex : 2 ;
+font-size: 60px;
+line-height: 70px;
+width:  500px ;
+
+}
+.classes{
+    margin-left: -100px ;
+}
+.kavita{
+    margin-left: -240px ;
+}
+
+.welcomgroup{
+    display: flex ;  
+    font-family: 'Abhaya Libre', serif;
+    margin-top: 0 !important  ;
+}
+.display{
+    flex: 1 ;
+}
+.explore{
+    font-size: 20px ;
+   // margin-left: -150px;
+   color: white ;
+   margin-top: -15px ;
+  
+}
+.exploreoutline{
+    box-sizing: border-box;
+    background-color: black;
+    height: 40px ;
+    width: 400px ;
+    font-family: 'Abhaya Libre', serif;
+  //   margin: 10px ;
+    border-radius: 30px;
+    border: 1px solid black ;
+}
+.inhale{
+    font-size: 25px ;
+    margin-left: -160px ;
+}
+.display5{
+   
+}
+    .vectorIcon{
+        position:absolute;
+        z-index: -1 ;
+    
+        height: 183.7px;
+        opacity: 0.5;
+   
+
+}
+.welcomegrid-container{
+    display: flex ;
+    flex-direction: row ;
+}
+.displaygrid{
+    display: flex;
+    flex-direction: column;
+    gap : 2px ;
+}
+

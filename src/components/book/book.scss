@@ -1,0 +1,119 @@
+// .book{
+// margin-top: 150px ;
+// margin-right: 150px ;
+// }
+// .bookdetails{
+//     display: flex;
+//     margin-left: 200px ;
+//     flex: 1 ,1 ;
+// }
+// .booktext1{
+//     font-family: Arial, Helvetica, sans-serif;
+//     font-size: 50px;
+//     font-weight: 550;
+  
+// }
+// .booktext{
+//     position: relative;
+//     flex : 1 ;
+//     margin-top: 100px ;
+// }
+// .bookexplore{
+//     font-size: 20px ;
+//     color: black;
+//     background-color: transparent;
+//     margin: 10px ;
+// }
+
+//!imp
+// .booknowcover{
+//     position: absolute;
+//     border: solid black ;
+//     box-sizing: border-box;
+//     background-color: black;
+//     height:  50px;
+//     border-radius: 30px  ;
+//     width : 150px ;
+//     margin-top: 40px ;
+//     margin-left: 200px;
+// }
+
+
+
+// .bookimg{
+//     z-index: -1 ;
+//     position: relative;
+
+// }
+// .bookvector2{
+//     position : absolute;
+//     top : 230px ;
+     
+    
+// }
+// .bookvector3{
+//     margin-top: 30px ;
+//     margin-left: 70px ;
+//     position : absolute;
+// }
+
+.book{
+    margin-top: 150px ;
+    margin-right: 150px ;
+    }
+    .bookdetails{
+        display: flex;
+        margin-left: 200px ;
+        flex: 1 ,1 ;
+    }
+    .booktext1{
+        font-size: 50px ;
+      
+    }
+    .booktext{
+        position: relative;
+        flex : 1 ;
+        margin-top: 100px ;
+    }
+    .bookexplore{
+        font-size: 20px ;
+        color: white;
+        margin: 10px ;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .bookexplore:hover{
+        transform: scale(1.2); 
+    }
+    .booknowcover{
+        position: absolute;
+        border: solid black ;
+        box-sizing: border-box;
+        background-color: black;
+        height:  50px;
+        border-radius: 30px  ;
+        width : 150px ;
+        margin-top: 40px ;
+        margin-left: 200px;
+    }
+    .bookvector1{
+        position : absolute;
+        top : -200px ;
+        margin-left: 198px;
+    }
+    .bookimg{
+        z-index: -1 ;
+        position: relative;
+    
+    }
+    .bookvector2{
+        position : absolute;
+        top : 230px ;
+         
+        
+    }
+    .bookvector3{
+        margin-top: 30px ;
+        margin-left: 70px ;
+        position : absolute;
+    }

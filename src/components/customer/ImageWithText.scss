@@ -1,0 +1,21 @@
+.image-with-text {
+  
+    position: relative;
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+   
+  }
+  
+  .text {
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40%; 
+    left: 27%; 
+    font-size: 33px; 
+    color: white; 
+    text-shadow: 2px 2px 2px black; 
+  }

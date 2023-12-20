@@ -1,0 +1,38 @@
+
+.scrollable-container {
+  padding-top: 100px;
+    overflow: auto;
+    display: flex;
+    /* flex-direction: column; */
+    height: 100vh;
+    padding-left: 15%;
+  }
+  
+  .sections {
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+  }
+  
+  .section {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .section.active {
+    background-color: #e0e0e0;
+  }
+  
+  .content {
+
+  }
+
+  .content img {
+    max-width: 600px;
+    height: auto;
+    max-height: 250px; 
+    padding-left: 10%;
+  }
+  

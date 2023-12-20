@@ -1,0 +1,52 @@
+.teacher{
+ margin-bottom: 100px ;
+ margin-left: -60px ;
+}
+.teachermeet{
+    color: #000;
+    font-family: "Poppins" , sans-serif ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%; /* 51px */
+    text-transform: capitalize;
+  
+    margin-left: 5%;
+    }
+    .teacherphoto{
+        display: flex;
+        margin-left: 150px ;
+        margin-top: 100px ;
+        gap:100px;
+      
+    }
+   .teacher_1{
+    display: flex; 
+    flex-direction: column ;
+
+   }
+   .teachertext{
+    margin-top : 20px ;
+    font-size: 25px ; 
+    font-weight: 700 ;
+    font-family: "Poppins" , sans-serif ;
+
+   }
+   .teachertype{
+    font-size: 20px ; 
+    font-weight: 300 ;
+
+   }
+    .teachername{
+        color: #000;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 127.5%; /* 31.875px */
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        row-gap:5px;
+    }
+

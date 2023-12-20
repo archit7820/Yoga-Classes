@@ -1,0 +1,65 @@
+.story{
+     height: 800px ;
+    margin-top : 150px ;
+    margin-bottom : 150px ;
+    margin-left: 105px ;
+     
+    margin-right: 100px ;
+}
+.storytitle{
+color: #053544;
+font-size: 50px ;
+ text-align: left ;
+ margin-bottom: 50px ;
+ font-size: 50px;
+ font-weight: 550;
+ font-family: Arial, Helvetica, sans-serif ;
+ margin-left: 10px;
+}
+.storytext{
+    text-align: left;
+    font-size: 18px ;
+    gap : 100px ;
+    display: flex ;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 10px;
+}
+.storybg{
+    position: absolute;
+    width: 87%;
+    z-index: -1 ;
+    left : 50px ;
+    margin-top : -70px ;
+    margin-left: 3.4%;
+    margin-right: 5.5%;
+}
+.storyimg{
+    margin-left: 450px ;
+    margin-top: -100px ;
+    padding-top: 97px;
+}
+.storyvector{
+    margin-top: -500px ;
+   margin-left: 300px;
+
+}
+.booknow{
+    align-items: left;
+
+}
+.bookround{
+    position: relative;
+    margin-top: 50px ;
+    cursor: pointer;
+
+}
+// .arrowstory{
+//     position: absolute;
+//     margin-top: 75px ;
+//      margin-left: 25px ;
+//      width: 50px; /* Adjust the width to create a circle */
+//     height: 50px; /* Adjust the height to create a circle */
+//     background-color: black; /* Set the background color to black */
+//     border-radius: 50%; /* Create a circular shape */
+//     opacity: 0.1;   
+// }

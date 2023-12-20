@@ -1,0 +1,65 @@
+
+.customernamephoto1{
+    display: flex; 
+    flex-direction:row !important  ;
+    margin-top: 20px  ;
+    
+}
+.customerphoto1{
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.custo1{
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgb(214, 208, 208); 
+    box-sizing: border-box;
+}
+
+.customersays1{
+    text-wrap:balance;
+    display: flex;
+    text-align: left ;
+    line-height: 32px;
+     margin-left: 30px ;
+    flex-direction: row;
+     margin-top: 10px;
+     letter-spacing: 0.5px;
+     margin-bottom: 30px ;
+     font-size: 12px ;
+     font-weight: 400;
+     font-family: Arial, Helvetica, sans-serif ;
+     }
+
+.customerdemo1{
+    align-items: auto;
+    font-family: 'Poppins',sans-serif;
+    flex-direction: row;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;;
+    gap : 100px 
+}
+.customername1{
+    display: flex;
+    flex-direction: row;
+     margin:  20px ;
+     margin-top: 25px ;
+     font-size: 20px ;
+     font-family: Arial, Helvetica, sans-serif ;
+   //   margin-bottom: 20px;
+    
+}
+.customertext1{
+    font-size: 50px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.customer1{
+    margin-bottom: 100px ;
+
+}
